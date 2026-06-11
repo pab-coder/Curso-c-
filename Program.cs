@@ -17,9 +17,13 @@
 //ConvertirTipoDeDatos.Run();
 
 //Impresion de constantes
-Constantes.Run();
+//Constantes.Run();
 
+//Imprimi valores introducidos
+//IntroducirValores.Run();
 
+//Imprimir ejercisio de tipos de datos
+EjercicioTipoDeDatos.Run();
 
 
 
