@@ -14,7 +14,10 @@
 //TiposDinamicos.Run();
 
 //Impresio de conversion de tipo de datos de entero a cadena
-ConvertirTipoDeDatos.Run();
+//ConvertirTipoDeDatos.Run();
+
+//Impresion de constantes
+Constantes.Run();
 
 
 
