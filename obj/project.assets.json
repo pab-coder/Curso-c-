@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\One Drive\\escritorio\\Curso C#\\Curso C#.csproj",
+      "projectUniqueName": "D:\\One Drive\\Escritorio\\Curso C#\\Curso C#.csproj",
       "projectName": "Curso C#",
-      "projectPath": "D:\\One Drive\\escritorio\\Curso C#\\Curso C#.csproj",
+      "projectPath": "D:\\One Drive\\Escritorio\\Curso C#\\Curso C#.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\One Drive\\escritorio\\Curso C#\\obj\\",
+      "outputPath": "D:\\One Drive\\Escritorio\\Curso C#\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

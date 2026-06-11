@@ -8,7 +8,10 @@
 //TiposDatos.Run();
 
 // Impresion de tamaño de tipo de datos
-TamañoTipoDatos.Run();
+//TamañoTipoDatos.Run();
+
+//Impresion de variavles tipo VAR o Dynamic
+TiposDinamicos.Run();
 
 
 

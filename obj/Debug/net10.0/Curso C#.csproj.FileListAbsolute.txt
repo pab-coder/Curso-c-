@@ -12,3 +12,4 @@ D:\One Drive\escritorio\Curso C#\obj\Debug\net10.0\refint\Curso C#.dll
 D:\One Drive\escritorio\Curso C#\obj\Debug\net10.0\Curso C#.pdb
 D:\One Drive\escritorio\Curso C#\obj\Debug\net10.0\Curso C#.genruntimeconfig.cache
 D:\One Drive\escritorio\Curso C#\obj\Debug\net10.0\ref\Curso C#.dll
+D:\One Drive\Escritorio\Curso C#\obj\Debug\net10.0\Curso C#.sourcelink.json
