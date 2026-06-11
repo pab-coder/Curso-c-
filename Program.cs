@@ -11,7 +11,10 @@
 //TamañoTipoDatos.Run();
 
 //Impresion de variavles tipo VAR o Dynamic
-TiposDinamicos.Run();
+//TiposDinamicos.Run();
+
+//Impresio de conversion de tipo de datos de entero a cadena
+ConvertirTipoDeDatos.Run();
 
 
 
