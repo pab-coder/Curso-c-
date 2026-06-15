@@ -26,7 +26,10 @@
 //EjercicioTipoDeDatos.Run();
 
 //Imprimir operadores aritmeticos
-OperadoresAritmeticos.Run();
+//OperadoresAritmeticos.Run();
+
+//Imprimir operadores de incremento/decremento
+OperadoresIncrementeDecremento.Run();
 
 
 
