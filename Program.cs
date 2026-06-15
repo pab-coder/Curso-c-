@@ -23,7 +23,10 @@
 //IntroducirValores.Run();
 
 //Imprimir ejercisio de tipos de datos
-EjercicioTipoDeDatos.Run();
+//EjercicioTipoDeDatos.Run();
+
+//Imprimir operadores aritmeticos
+OperadoresAritmeticos.Run();
 
 
 
