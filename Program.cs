@@ -29,7 +29,10 @@
 //OperadoresAritmeticos.Run();
 
 //Imprimir operadores de incremento/decremento
-OperadoresIncrementeDecremento.Run();
+//OperadoresIncrementeDecremento.Run();
+
+//Imprimir operadores de asignación
+OperadoresAsignacion.Run();
 
 
 
