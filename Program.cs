@@ -38,4 +38,7 @@
 //OperadoresRelacionales.Run();
  
 //Aprendiendo operadores lógicos
-OperadoresLogicos.Run(); 
+//OperadoresLogicos.Run(); 
+
+//ejemplos de valores dentro de rango
+DentroRango.Run();
