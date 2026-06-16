@@ -35,5 +35,7 @@
 //OperadoresAsignacion.Run();
 
 //Imprimir Operadores relacionales
-OperadoresRelacionales.Run();
-
+//OperadoresRelacionales.Run();
+ 
+//Aprendiendo operadores lógicos
+OperadoresLogicos.Run(); 
