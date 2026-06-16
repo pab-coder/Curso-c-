@@ -32,7 +32,8 @@
 //OperadoresIncrementeDecremento.Run();
 
 //Imprimir operadores de asignación
-OperadoresAsignacion.Run();
+//OperadoresAsignacion.Run();
 
-
+//Imprimir Operadores relacionales
+OperadoresRelacionales.Run();
 
