@@ -41,4 +41,7 @@
 //OperadoresLogicos.Run(); 
 
 //ejemplos de valores dentro de rango
-DentroRango.Run();
+//DentroRango.Run();
+
+//Se estudia la precedencia de los Operadores en C#
+PrecedenciaOperadores.Run();
