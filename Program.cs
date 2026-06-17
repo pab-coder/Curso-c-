@@ -44,4 +44,6 @@
 //DentroRango.Run();
 
 //Se estudia la precedencia de los Operadores en C#
-PrecedenciaOperadores.Run();
+//PrecedenciaOperadores.Run();
+
+PantallaInicio.Mostrar();
