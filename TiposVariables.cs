@@ -10,32 +10,40 @@ class TiposVariables
 
     static void AprendiendoVariables()
     {
+        Console.Clear();
         Console.WriteLine("En C# existen variables donde se almacenan varios tipos de datos");
         Console.WriteLine("estos pueden ser Caracteres, Cadenas de Caracteres, Números, Booleanos");
         Console.WriteLine("En C# se conocen como char, string, numeros (int, float, double, long), boolean (elección True o False) ");
+        Console.WriteLine();
 
         char miChar = 'A';
-        Console.WriteLine($"Mi caracter: {miChar}");
+        Console.WriteLine($"Mi caracter: {miChar} aquí solo se permite un caracter");
+        Console.WriteLine();
 
-        string miCadena = "Mi cadena de caracteres";
-        Console.WriteLine($"Mi caracter: {miCadena}");
+        string miCadena = "Textos largos con numeros, letras y simbolos";
+        Console.WriteLine($"Mi cadena: {miCadena}");
+        Console.WriteLine();
 
         int miEntero = 10;
         Console.WriteLine($"Mi entero {miEntero}");
+        Console.WriteLine();
 
-        
+        long miLong = 500L;
+        Console.WriteLine($"Mi Long {miLong}");
+        Console.WriteLine();
 
-        Console.WriteLine("Para ejemplo se declaran las variables num1 = 10 y num2 = 20 tipo int");
-        
-        int num1 = 10;
-        int num2 = 20;
+        float miFloat = 125.5F;
+        Console.WriteLine($"Mi Flotante {miFloat}");
+        Console.WriteLine();
 
-        Console.WriteLine($"Los numeros uno y dos: {num1} {num2} Escrito por interpolación");
+        double miDouble = 10.7;
+        Console.WriteLine($"Mi Double: {miDouble}");
+        Console.WriteLine();
 
-        Console.WriteLine("Los números uno y dos: " 
-            + num1 + " " + num2 + " Escrito con Concatenación");
+        Console.Write("\nPresione una tecla para regresar...");
+        Console.ReadKey();
+        Console.Clear();
+        VariablesTemas.MostrarTemas();
 
-        Console.WriteLine("Los numeros uno y dos: {0} {1} Escrito por índices", 
-            num1, num2);
     }
 }

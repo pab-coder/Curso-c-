@@ -31,8 +31,9 @@ class PantallaInicio
         Console.ResetColor();
     }
 
-    static void MenuPrincipal()
+    public static void MenuPrincipal()
     {
+        Console.Clear();
         Console.WriteLine($"===================");
         Console.WriteLine($"      CODELAB      ");
         Console.WriteLine($"===================");
@@ -55,32 +56,36 @@ class PantallaInicio
 
     static void MenuEleccion(int opcion)
     {
-        switch (opcion)
+        while (true)
         {
-            case 1:
-                Console.WriteLine("Modulo de Fundamentos");
-                Fundamentos.Run();
-                break;
-            case 2:
-                Console.WriteLine("Modulo de POO");
-                break;
-            case 3:
-                Console.WriteLine("Modulo de Archivos");
-                break;
-            case 4:
-                Console.WriteLine("Modulo de SQL Server");
-                break;
-            case 0:
-                Console.WriteLine("Saliendo...");
-                break;
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("Modulo de Fundamentos");
+                    Console.WriteLine();
+                    MenuFundamentos.Run();
+                    break;
+                case 2:
+                    Console.WriteLine("Modulo de POO");
+                    Console.WriteLine();
+                    break;
+                case 3:
+                    Console.WriteLine("Modulo de Archivos");
+                    Console.WriteLine();
+                    break;
+                case 4:
+                    Console.WriteLine("Modulo de SQL Server");
+                    Console.WriteLine();
+                    break;
+                case 0:
+                    Environment.Exit(0);
+                    break;
 
-            default:
-                Console.WriteLine("Opción inválida");
-                break;
+                default:
+                    Console.WriteLine("Opción inválida");
+                    Console.ReadKey();
+                    break;
+            }
         }
-
     }
-
-    
-
 }

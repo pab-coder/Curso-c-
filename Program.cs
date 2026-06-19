@@ -47,3 +47,4 @@
 //PrecedenciaOperadores.Run();
 
 PantallaInicio.Mostrar();
+//MenuPrincipal.Mostrar();
