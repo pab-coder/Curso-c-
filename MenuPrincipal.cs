@@ -40,6 +40,7 @@ class PantallaInicio
         Console.WriteLine($" ");
         Console.WriteLine($"Versión : 1.0");
         Console.WriteLine($"Creado por : Pablo Rivera");
+        Console.WriteLine($"Contacto: palerr27@gmail.com");
         Console.WriteLine($"Fecha : 16/06/2026");
         Console.WriteLine($" ");
         Console.WriteLine($"1. Fundamentosde C#");
