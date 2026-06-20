@@ -36,7 +36,7 @@ class VariablesTemas
                 EjemploVariables.Run();
                 break;
             case 0:
-                PantallaInicio.MenuPrincipal();
+                MenuFundamentos.Run();
                 break;
 
 

@@ -39,7 +39,7 @@ class PantallaInicio
         Console.WriteLine($"===================");
         Console.WriteLine($" ");
         Console.WriteLine($"Versión : 1.0");
-        Console.WriteLine($"Creado por : Pablo");
+        Console.WriteLine($"Creado por : Pablo Rivera");
         Console.WriteLine($"Fecha : 16/06/2026");
         Console.WriteLine($" ");
         Console.WriteLine($"1. Fundamentosde C#");
@@ -48,10 +48,21 @@ class PantallaInicio
         Console.WriteLine($"4. SQL Server");
         Console.WriteLine($" ");
         Console.WriteLine($"0. Salir");
-        Console.WriteLine($" ");
+        Console.WriteLine();
         Console.Write($"Seleccione una opcion: ");
-        var opcion = Convert.ToInt32(Console.ReadLine());
-        MenuEleccion(opcion);
+
+        if (int.TryParse(Console.ReadLine(), out int opcion))
+        {
+            MenuEleccion(opcion);
+        }
+        else
+        {
+            Console.WriteLine("\nOpción inválida.");
+            Console.WriteLine("Presione una tecla para continuar...");
+            Console.ReadKey();
+            Console.Clear();
+            MenuPrincipal();
+        }
     }
 
     static void MenuEleccion(int opcion)
@@ -66,16 +77,34 @@ class PantallaInicio
                     MenuFundamentos.Run();
                     break;
                 case 2:
+                    Console.Clear();
                     Console.WriteLine("Modulo de POO");
-                    Console.WriteLine();
+                    Console.WriteLine("\n\n");
+                    Console.WriteLine("Lo sentimos, módulo en construcción");
+                    Console.WriteLine("\n\nPresione cualquier tecla para regresar");
+                    Console.ReadKey();
+                    Console.Clear();
+                    PantallaInicio.MenuPrincipal();
                     break;
                 case 3:
+                    Console.Clear();
                     Console.WriteLine("Modulo de Archivos");
-                    Console.WriteLine();
+                    Console.WriteLine("\n\n");
+                    Console.WriteLine("Lo sentimos, módulo en construcción");
+                    Console.WriteLine("\n\nPresione cualquier tecla para regresar");
+                    Console.ReadKey();
+                    Console.Clear();
+                    PantallaInicio.MenuPrincipal();
                     break;
                 case 4:
+                    Console.Clear();
                     Console.WriteLine("Modulo de SQL Server");
-                    Console.WriteLine();
+                    Console.WriteLine("\n\n");
+                    Console.WriteLine("Lo sentimos, módulo en construcción");
+                    Console.WriteLine("\n\nPresione cualquier tecla para regresar");
+                    Console.ReadKey();
+                    Console.Clear();
+                    PantallaInicio.MenuPrincipal();
                     break;
                 case 0:
                     Environment.Exit(0);
