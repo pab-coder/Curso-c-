@@ -40,6 +40,24 @@ class TiposVariables
         Console.WriteLine($"Mi Double: {miDouble}");
         Console.WriteLine();
 
+        dynamic miDinamico = 10.15;
+        Console.WriteLine($"Mi Dinámico como entero: {miDinamico}");
+        miDinamico = "Cambio a cadena";
+        Console.WriteLine($"Mi Dinámico como string: {miDinamico}");
+        Console.WriteLine();
+
+        const int MI_CONSTANTE = 10;
+        Console.WriteLine($"Mi constante int: {MI_CONSTANTE}");
+        Console.WriteLine();
+
+        const float PI = 3.1416F;
+        Console.WriteLine($"Mi constante tipo float para PI: {PI}");
+        Console.WriteLine();
+
+        Console.WriteLine("Contante PI de la clase Math");        
+        Console.WriteLine($"Contante PI Math.PI: {Math.PI}");
+        Console.WriteLine();
+
         Console.Write("\nPresione una tecla para regresar...");
         Console.ReadKey();
         Console.Clear();

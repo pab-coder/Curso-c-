@@ -21,7 +21,7 @@ class CaracterísticasVariables
         Console.WriteLine($"Muestra tipo String: {miCadena.GetType()}");
         Console.WriteLine($"Tamaño en bytes es largo de la cadena {miCadena.Length} * 2");
         Console.WriteLine();
-        
+
         int miEntero = 10;
         Console.WriteLine($"Mi entero {miEntero}");
         Console.WriteLine($"Tamaño en byte: {sizeof(int)}");
@@ -46,9 +46,30 @@ class CaracterísticasVariables
         Console.WriteLine($"Valor mínimo {double.MinValue}, valor Máximo: {double.MaxValue}");
         Console.WriteLine();
 
+        Console.WriteLine("Tambien existen tipos de variables dinamicas esto es,");
+        Console.WriteLine("declarar una variable dynamic donde se utiliza tipo int");
+        Console.WriteLine("y puedes cambiarlo a string");
+        Console.WriteLine("Se declara dynamic miEnteroDinamico = 10");
+        dynamic miEnteroDinamico = 10;
+        Console.WriteLine();
+
+        miEnteroDinamico = "Esto es texto dentro de la varaible miEnteroDinamico";
+        Console.WriteLine($"Cambiamos el contenido a cadena: {miEnteroDinamico}");
+        Console.WriteLine("Al ser una variable dinamica se puede declara una vez y usarla");
+        Console.WriteLine("multiples veces, pero se puede volver dificil\nde sostener a lo largo de un proyecto");
+        Console.WriteLine();
+
+        Console.WriteLine("Existen las variables Constantes, nos permite mantener\nel mismo tipo de dato durante la ejecución del programa");
+        Console.WriteLine("Se clara const seguido de el tipo de dato mas el nombre de la variable\nel nombre de la variable que se especifica en mayúsculas");
+        const float MI_IVA = 0.16F;
+        Console.WriteLine($"const float MI_IVA = .16F");
+        Console.WriteLine($"MI_IVA: {MI_IVA}");
+
+
+
         Console.Write("\nPresione una tecla para regresar...");
         Console.ReadKey();
         VariablesTemas.MostrarTemas();
-        
+
     }
 }

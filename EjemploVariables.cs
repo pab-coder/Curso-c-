@@ -25,7 +25,7 @@ class EjemploVariables
         Console.WriteLine($"Estos valores se convirtieron a tipo int para resolver la operación");
         Console.WriteLine();
 
-        
+
         int num1 = 10;
         int num2 = 20;
         Console.WriteLine("En este ejemplo se declaran las variables tipo int ");
@@ -46,10 +46,27 @@ class EjemploVariables
         Console.WriteLine("Uso de Indices");
         Console.WriteLine("El uso de índices se agrega después de la cadena con separación con comas");
         Console.WriteLine("(Los numeros uno y dos: {0} {1} Escrito por índices,num1, num2)");
-        Console.WriteLine("Los numeros uno y dos: {0} {1} Escrito por índices",num1, num2);
-
-
-
+        Console.WriteLine("Los numeros uno y dos: {0} {1} Escrito por índices", num1, num2);
+        Console.WriteLine();
+        Console.WriteLine("Variables Dinámicas");
+        Console.WriteLine("Existen variables dinámicas, dichas variables se pueden perfilar según la necedidad");
+        Console.WriteLine("Se antepone la palabra dynamic antes de nombrar la variable");
+        dynamic miDinamico = 10;
+        Console.WriteLine("dynamic miDinamico = 10, aqui se declara la variable con un número entero");
+        Console.WriteLine($"Mi dinamico tipo int: {miDinamico}, este dato se puede cambiar a tipo string");
+        miDinamico = "Cambio a tipo cadena";
+        Console.WriteLine("Se toma la varible y se cambia el tipo al poner el dato requerido");
+        Console.WriteLine("miDinamico = 'Cambio a tipo cadena'");
+        Console.WriteLine($"Mi dinamico tipo string: {miDinamico}");
+        Console.WriteLine();
+        Console.WriteLine("Variables Constantes");
+        const float MI_IVA = 0.16F;
+        Console.WriteLine($"Se declara: const float MI_IVA = 0.16F\npara este ejemplo usaremos un subtotal tipo int de 100 y multiplcaremos por la Constante MI_IVA");
+        int subtotal = 100;
+        Console.WriteLine("Declaramos entonces:\nint subtotal = 100;\nfloat resultado = subtotal * MI_IVA");
+        float resultadoConstante = subtotal * MI_IVA;
+        Console.WriteLine($"El resultado: {resultadoConstante}");
+        
         Console.Write("\nPresione una tecla para regresar...");
         Console.ReadKey();
         Console.Clear();

@@ -46,5 +46,5 @@
 //Se estudia la precedencia de los Operadores en C#
 //PrecedenciaOperadores.Run();
 
-PantallaInicio.Mostrar();
-//MenuPrincipal.Mostrar();
+//PantallaInicio.Mostrar();
+EjemploVariables.Run();
